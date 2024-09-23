@@ -34,7 +34,7 @@ body{
     max-height: 250px;
 }
 .banner{
-    background: url(../img/img4.jpg);
+    background: url(/img/img4.jpg);
     background-size: cover;
     color: white;
     object-fit: contain;
