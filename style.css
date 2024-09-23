@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+}
+.poster{
+    width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+    margin-right: 10px;
+    
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 20px;
+    
+}
+.poster:hover{
+    transform: scale(1.08);
+}
+.poster::-webkit-scrollbar{
+    display: none;
+}
+.logo{
+    color: white;
+    margin-left: 10px;
+}
+.poster_large{
+    max-height: 250px;
+}
+.banner{
+    background: url(../img/img4.jpg);
+    background-size: cover;
+    color: white;
+    object-fit: contain;
+    height: 450px;
+}
+.banner__contents{
+    margin-left: 30px;
+    height: 190px;
+    padding-top: 140px;
+}
+.banner__title{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 100px;
+}
+.banner_description{
+    width: 45rem;
+    line-height: 1.4;
+    padding-top: 2rem;
+    font-size: .8rem;
+    max-width: 350px;
+    margin-left: 25px;
+}
+.banner_button{
+    color: white;
+    display: flex;
+    border-radius: 5px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: .8rem;
+    padding-bottom: .6rem;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+    background-color: rgb(50,50,50,0.5);
+}
+.banner_button:hover{
+    transform: scale(0.8) ;
+}
+.nav_logo{
+    width: 30px;
+    object-fit: contain;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+}
+.banner_effect{background: linear-gradient(18odeg,transparent,rgb(37,37,37,0.6));
+height: 7.4rem;
+margin-top: 130px;
+}
+.nav_avatar{
+    display: flex;
+    width: 40px;
+    height: 40px;
+}
+.poster_large img{
+    max-height: 250px;
+    max-width: 250px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 30px;
+    font-weight: 900;
+}
