@@ -1,2 +1,2 @@
-# day7project
+# netflix clone
 # novitech
